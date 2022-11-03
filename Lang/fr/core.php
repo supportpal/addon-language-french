@@ -361,7 +361,7 @@ return array(
      */
     "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
     "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
-    "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_reply_template"   => "The {{ operator.reply_template|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.4.1
@@ -590,5 +590,33 @@ return array(
     "alternative_description"   => "Alternative description",
     "browse_image"              => "Browse for an image",
     "drop_image"                => "Drop an image here",
+
+    /*
+     * 4.2.0
+     */
+    "keyboard_shortcuts"        => "Keyboard Shortcuts",
+    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
+    "shortcut_global"           => "Global shortcuts",
+    "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
+    "shortcut_start_search"     => "Start search",
+    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
+    "shortcut_ticket_view"      => "Ticket view shortcuts",
+    "shortcut_focus_reply"      => "Focus the reply form",
+    "shortcut_focus_notes"      => "Focus the notes form",
+    "shortcut_focus_forward"    => "Focus the forward form",
+    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
+    "shortcut_take_ticket"      => "Take ticket",
+    "shortcut_close_ticket"     => "Close ticket",
+    "shortcut_lock_ticket"      => "Close & lock ticket",
+    "shortcut_unlock_ticket"    => "Unlock ticket",
+    "shortcut_trash_ticket"     => "Move ticket to trash",
+    "shortcut_block_user"       => "Block user and move ticket to trash",
+    "shortcut_watch_ticket"     => "Watch ticket",
+    "shortcut_unwatch_ticket"   => "Unwatch ticket",
+    "shortcut_merge_ticket"     => "Merge ticket",
+    "shortcut_unmerge_ticket"   => "Unmerge ticket",
+    "shortcut_expand_all"       => "Expand all messages",
+    "shortcut_collapse_all"     => "Collapse all messages",
+    "shortcut_print_ticket"     => "Print ticket details and messages",
 
 );

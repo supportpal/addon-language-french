@@ -154,4 +154,10 @@ return array(
     "popup_blocked"         => "Votre navigateur bloque les pop-up. Veuillez les pop-ups et actualiser cette page pour que les fonctionnalités soient actives.",
     "error_editing_message" => "Une erreur s'est produite lors de l'édition du message.",
 
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
 );

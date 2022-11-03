@@ -77,7 +77,6 @@ return array(
     // User
     "usercustomfield"   => "Gérer champs usagers sur mesure",
     "organisationcustomfield" => "Gérer champ d'organisations sur mesure",
-    "operatorsignature" => "Gérer signatures opérateurs",
 
     /*
      * 2.1.1
@@ -124,5 +123,10 @@ return array(
      */
     "addon"             => "View and Manage Add-ons",
     "system_health"     => "View System Health",
+
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Manage Operator Reply Templates",
 
 );

@@ -244,7 +244,6 @@ return array(
     "ticket_notes_top"          => "En haut seulement",
     "ticket_notes_messages"     => "Dans les messages seulement",
 
-    "captcha_desc"              => "Lorsque le captcha doit être affiché aux utilisateurs qui ouvrent de nouveaux tickets.",
     "unregistered_only"         => "Utilisateurs non enregistrés seulement",
 
     "allow_unauth_users"        => "Autoriser utilisateurs non identifiés",
@@ -276,7 +275,6 @@ return array(
     "add_tag"                   => "Ajouter libellé",
 
     "unlock"                    => "Débloquer",
-    "merge"                     => "Fusionner",
     "merged"                    => "Fusionné",
     "unmerge"                   => "Défusionner",
     "close_and_lock"            => "Fermer et bloquer",
@@ -454,7 +452,6 @@ return array(
     "select_a_department_email" => "Choisir un e-mail de département...",
     "record_public_desc"        => "Activez pour que le :record soit accessible pour d'autres opérateurs.",
     "record_group_desc"         => "Si vous souhaitez que :record ne soit visible que pour certains groupes d'opérateurs. Laissez le champ vide pour que tous les opérateurs puissent le voir.",
-    "ticket_format_desc"        => "Peut contenir des caractères alphanumériques et des caractères spéciaux <code>-_.+!*,</code><br />Les variables suivantes peuvent également être utilisées : %S pour un numéro séquentiel | %N pour un numéro aléatoire | %L pour une lettre aléatoire<br />Utiliser {number} pour répéter <strong>uniquement</strong> après %N ou %L, par exemple %N{4} équivaut à 4 numéros aléatoires, %L{3} équivaut à 3 lettres aléatoires<br />Les paramètres suivants <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> sont préfixés par % Y,y,m,d,j,g,G,h,H,i,s.",
 
     /*
      * 2.4.0
@@ -544,5 +541,16 @@ return array(
      */
     "on_behalf_of"              => "Created on behalf of",
     "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Peut contenir des caractères alphanumériques et des caractères spéciaux <code>-_.+!*,</code><br />Les variables suivantes peuvent également être utilisées : %S pour un numéro séquentiel | %N pour un numéro aléatoire | %L pour une lettre aléatoire<br />Utiliser {number} pour répéter <strong>uniquement</strong> après %N ou %L, par exemple %N{4} équivaut à 4 numéros aléatoires, %L{3} équivaut à 3 lettres aléatoires<br />Les paramètres suivants <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> sont préfixés par % Y,y,m,d,j,g,G,h,H,i,s.",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Lorsque le captcha doit être affiché aux utilisateurs qui ouvrent de nouveaux tickets.",
 
 );

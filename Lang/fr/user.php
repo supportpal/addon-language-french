@@ -204,11 +204,6 @@ return array(
     "op_settings_individual_dept"   => "Assigné individuellement:",
     "op_settings_individual_dept_desc" => "Ces départements sont en plus des départements pré-assignés à l'opérateur au travers des groupes ci-dessus.",
     "also_registered_other_brand"   => "Cet utilisateur est aussi enregistré dans la marque suivante : :brands.|Cet utilisateur est aussi enregistré dans les marques suivantes : :brands.",
-    "signature"                     => "Signature|Signatures",
-    "signature_desc"                => "Permet de créer une signature personnelle pour les tickets, avec la possibilité de customiser selon la marque et le département du ticket. La signature par défaut est utilisée lorsqu'un département et/ou une marque ne peut être trouvé.",
-    "operator_signature"            => "Signature opérateur|Signatures opérateurs",
-    "ticket_signature_desc"         => "La signature par défault d'un ticket par l'opérateur.",
-    "operator_signature_desc"       => "D'autres signatures, pour des départements et marques spécifiques peuvent être paramétrés dans la section <a href=':route' target='_blank'>Signatures opérateurs</a>",
     "view_organisation"             => "Afficher organisation",
     "new_owner"                     => "Nouveau propriétaire",
     "operator_role"                 => "Rôle opérateur|Rôles opérateurs",
@@ -339,7 +334,7 @@ return array(
     "logged_in"                     => "Logged In",
     "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
 
-    /**
+    /*
      * 4.0.0
      */
     "verify_phone_number"           => "Verify Phone Number",
@@ -348,5 +343,23 @@ return array(
     "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
     "verify_phone_code_error"       => "Code could not be verified.",
     "logged_in_as"                  => "Logged in as :name",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
 
 );

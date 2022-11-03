@@ -114,7 +114,6 @@ return array(
      */
     "ticket_brand_disabled_reply"       => "La réponse n'a pas pu être ajoutée car le ticket est lié à une marque désactivée: #:rel",
     "personal_signatures_updated"       => "Signatures personnelles mises à jour.",
-    "operator_signatures_updated"       => "Signature :rel mise à jour.",
     "check_email_failed"                => "Erreur: Echec du téléchargement de l'e-mail du compte :old_value: ':rel'.",
     "ticket_added_cc"                   => "Email(s) :new_value ajouté à la liste de CC du ticket #:rel.",
     "ticket_removed_cc"                 => "Email(s) :old_value supprimé de la liste de CC du ticket #:rel.",
@@ -202,5 +201,16 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Article :rel noté neutralement.",
+
+    /*
+     * 4.1.0
+     */
+    "user_merged"                       => "User :old_value merged into user :rel.",
+    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
 
 );
