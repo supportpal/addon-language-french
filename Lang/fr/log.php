@@ -204,6 +204,12 @@ return array(
     "selfservice_article_neutral"       => "Article :rel noté neutralement.",
 
     /*
+     * 4.1.0
+     */
+    "user_merged"                       => "User :old_value merged into user :rel.",
+    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+
+    /*
      * 4.2.0
      */
     "operator_reply_templates_updated"  => "Updated :rel's reply templates.",

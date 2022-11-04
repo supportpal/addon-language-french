@@ -24,7 +24,7 @@ return array(
      */
     "private_message_text"  => ":name vous a envoyé un nouveau <a href=':route'>message privé</a>.",
 
-     /*
+    /*
      * 4.2.0
      */
     "new_mention"           => "Nouvelle mention",
