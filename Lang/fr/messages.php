@@ -2,10 +2,10 @@
 
 return array(
 
-    "deleted"               => "Effacé!",
+    "deleted"               => "Supprimé!",
     "success"               => "Succès",
     "error"                 => "Erreur",
-    "in_progress"           => "En progrès",
+    "in_progress"           => "En cours",
 
     "save_order"            => "Tentative de sauvegarder le tri des items",
 

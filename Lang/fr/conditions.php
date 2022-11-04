@@ -8,30 +8,30 @@ return array(
     "assigned_operator_group"           => "Groupe d'opérateurs assigné",
     "hours_since_created"               => "Heures depuis la création",
     "hours_since_updated"               => "Heures depuis la dernière mise à jour",
-    "internal_ticket"                   => "Ticket interne",
+    "internal_ticket"                   => "Billet interne",
     "involved_operator"                 => "Opérateur impliqué",
-    "last_ticket_replier"               => "Dernier à avoir répondu au ticket",
-    "ticket_channel"                    => "Canal du ticket",
-    "ticket_channel_account"            => "Compte du canal du ticket",
-    "ticket_created"                    => "Ticket créé",
-    "ticket_department"                 => "Département du ticket",
-    "ticket_due_time"                   => "Ticket dû à",
-    "ticket_message_content"            => "Contenu du ticket",
-    "ticket_message_count"              => "Compteur",
-    "ticket_priority"                   => "Priorité du ticket",
-    "ticket_sla_plan"                   => "SLA du ticket",
-    "ticket_status"                     => "Statut du ticket",
-    "ticket_subject"                    => "Sujet du ticket",
-    "ticket_tag"                        => "Libellé du ticket",
-    "ticket_updated"                    => "Ticket mis à jour",
-    "user_email"                        => "Email de l'utilisateur",
+    "last_ticket_replier"               => "Dernier à avoir répondu au billet",
+    "ticket_channel"                    => "Canal du billet",
+    "ticket_channel_account"            => "Compte du canal du billet",
+    "ticket_created"                    => "Billet créé",
+    "ticket_department"                 => "Département du billet",
+    "ticket_due_time"                   => "Billet dû à",
+    "ticket_message_content"            => "Contenu du message",
+    "ticket_message_count"              => "Quantité de messages",
+    "ticket_priority"                   => "Priorité du billet",
+    "ticket_sla_plan"                   => "SLA du billet",
+    "ticket_status"                     => "Statut du billet",
+    "ticket_subject"                    => "Sujet du billet",
+    "ticket_tag"                        => "Libellé du billet",
+    "ticket_updated"                    => "Billet modifié",
+    "user_email"                        => "Couriel de l'utilisateur",
     "user_full_name"                    => "Nom complet de l'utilisateur",
     "user_group"                        => "Groupe de l'utilisateur",
 
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Entreprise associée au ticket",
+    "ticket_brand"                      => "Entreprise associée au billet",
     "user_brand"                        => "Entreprise de l'utilisateur",
 
     /*
@@ -40,17 +40,17 @@ return array(
     "hours_since_last_reply"            => "Heures depuis la dernière réponse",
     "hours_since_last_reply_exc_notes"  => "Heures depuis la dernière réponse (mis à part les notes)",
     "hours_until_due"                   => "Heures jusqu'à l'échéance",
-    "last_ticket_replier_exc_notes"     => "Dernier à avoir répondu au ticket (mis à part les notes)",
-    "ticket_department_email"           => "E-mail du département du ticket",
-    "ticket_has_attachments"            => "Le ticket a des pièces jointes",
-    "ticket_has_drafts"                 => "Le ticket a des brouillons",
-    "ticket_locked"                     => "Le ticket est verrouillé",
-    "ticket_merged"                     => "Le ticket est fusionné",
-    "ticket_message_count_exc_notes"    => "Nombre de messages sur le ticket (mis à part les notes)",
-    "ticket_note_count"                 => "Nombre de notes sur le ticket",
-    "ticket_number"                     => "Numéro du ticket",
-    "ticket_reopened_time"              => "Heure de réouverture du ticket",
-    "ticket_resolved_time"              => "Heure de résolution du ticket",
+    "last_ticket_replier_exc_notes"     => "Dernier à avoir répondu au billet (mis à part les notes)",
+    "ticket_department_email"           => "Adresse courriel du département du billet",
+    "ticket_has_attachments"            => "Le billet a des pièces jointes",
+    "ticket_has_drafts"                 => "Le billet a des brouillons",
+    "ticket_locked"                     => "Le billet est verrouillé",
+    "ticket_merged"                     => "Le billet est fusionné",
+    "ticket_message_count_exc_notes"    => "Nombre de messages sur le billet (mis à part les notes)",
+    "ticket_note_count"                 => "Nombre de notes sur le billet",
+    "ticket_number"                     => "Numéro du billet",
+    "ticket_reopened_time"              => "Heure de réouverture du billet",
+    "ticket_resolved_time"              => "Heure de résolution du billet",
     "user_account_active"               => "Compte utilisateur actif",
     "user_country"                      => "Pays de l'utilisateur",
     "user_language"                     => "Langue de l'utilisateur",
@@ -59,8 +59,8 @@ return array(
     /*
      * 2.3.0
      */
-    "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Champ personnalisés du ticket",
+    "ticket_cc"                         => "Billet CC",
+    "ticket_custom_field"               => "Champ personnalisés du billet",
     "user_custom_field"                 => "Champ personnalisés de l'utilisateur",
     "user_organisation_custom_field"    => "Champ personnalisés de l'organisation de l'utilisateur",
     "user_organisation"                 => "Nom de l'organisation de l'utilisateur",
@@ -84,7 +84,7 @@ return array(
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "E-mail de l'utilisateur confirmé",
+    "user_email_confirmed"              => "Adresse courriel de l'utilisateur confirmé",
 
     /*
      * 3.0.0
@@ -111,5 +111,5 @@ return array(
     /*
      * 4.0.0
      */
-    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
+    "last_message_content_exc_notes"    => "Last message content (mis à part les notes)",
 );

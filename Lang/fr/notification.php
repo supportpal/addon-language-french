@@ -2,11 +2,11 @@
 
 return array(
 
-    "new_ticket"            => "Nouveau ticket créé",
-    "new_ticket_text"       => "Un nouveau ticket #:item a été créé par :name.",
+    "new_ticket"            => "Nouveau billet créé",
+    "new_ticket_text"       => "Un nouveau billet #:item a été créé par :name.",
 
-    "new_reply"             => "Réponse à un nouveau ticket",
-    "new_reply_text"        => "Une nouvelle réponse a été postée par :name sous le ticket #:item.",
+    "new_reply"             => "Réponse à un nouveau billet",
+    "new_reply_text"        => "Une nouvelle réponse a été postée par :name sous le billet #:item.",
 
     "operator_login"        => "Opérateur connecté",
     "operator_login_text"   => ":name s'est connecté au panneau opérateur.",
@@ -23,5 +23,11 @@ return array(
      * 2.1.1
      */
     "private_message_text"  => ":name vous a envoyé un nouveau <a href=':route'>message privé</a>.",
+
+     /*
+     * 4.2.0
+     */
+    "new_mention"           => "Nouvelle mention",
+    "new_mention_text"      => ":name vous a nommé dans le billet #<a href=':route'>:number</a>.",
 
 );

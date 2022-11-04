@@ -34,7 +34,7 @@ return array(
     "different"                 => "Le :attribute et :other doivent être différents.",
     "digits"                    => "Le :attribute doit être de :digits chiffres.",
     "digits_between"            => "Le :attribute doit être compris entre :min et :max chiffres.",
-    "email"                     => "Le :attribute doit être une adresse e-mail valide.",
+    "email"                     => "Le :attribute doit être une adresse courriel valide.",
     "exists"                    => "Le :attribute selectionné est invalide.",
     "image"                     => "Le :attribute doit être une image.",
     "in"                        => "Le :attribute selectionné est invalide.",
@@ -105,7 +105,7 @@ return array(
     "is_slug"                   => "Le slug ne peut contenir que des caractères alphanumériques. Veuillez utiliser la notation '%%' pour les caractères spéciaux.",
     "article_slug_unique"       => "Le slug existe déjà.",
     "captcha_required"          => "Le captcha est requis.",
-    "ticket_number_format"      => "Le format du numéro du ticket est invalide.",
+    "ticket_number_format"      => "Le format du numéro du billet est invalide.",
 
     /*
      * 2.4.0
@@ -176,7 +176,7 @@ return array(
     /*
      * 3.5.0
      */
-    'phone'                     => "Le numéro de téléphone est invalide.",
+    "phone"                     => "Le numéro de téléphone est invalide.",
 
     /*
     |--------------------------------------------------------------------------

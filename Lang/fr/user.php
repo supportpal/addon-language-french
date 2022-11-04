@@ -5,17 +5,17 @@ return array(
     "user"                          => "Utilisateur|Utilisateurs",
     "user_details"                  => "Détails de l'utilisateur",
     "add_user"                      => "Ajouter un utilisateur",
-    "account_active"                => "Compte inactif",
+    "account_active"                => "Compte actif",
     "account_active_desc"           => "Activer pour autoriser/empêcher l'accès aux sections qui nécessitent une authentification.",
 
-    "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des tickets.",
+    "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des billets.",
 
     "organisation"                  => "Organisation|Organisations",
     "members"                       => "Membre|Membres",
     "owner"                         => "Propriétaire",
     "manager"                       => "Manager",
     "access_level"                  => "Niveau d'accès",
-    "access_level_desc"             => "Définir le niveau d'accès pour le Client dans les Projets: <br /><strong>Manager</strong> - Peut afficher des tickets ouverts par tous les Clients dans le Projet et la gestion des Clients dans le Projet <br /><strong>Client</strong> - Peut afficher des tickets uniquement ouverts par soi-même",
+    "access_level_desc"             => "Définir le niveau d'accès pour le Client dans les Projets: <br /><strong>Manager</strong> - Peut afficher des billets ouverts par tous les Clients dans le Projet et la gestion des Clients dans le Projet <br /><strong>Client</strong> - Peut afficher des billets uniquement ouverts par soi-même",
     "manage_organisation"           => "Gérer organisation",
     "leave_organisation"            => "Quitter organisation",
     "user_membership"               => "Membership de l'utilisateur",
@@ -24,9 +24,9 @@ return array(
     "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer l'organisation et ne peut pas être retiré de celle-ci. Utilisez cette option pour modifier la propriété à un autre Client dans l'organisation.",
     "start_typing_name"             => "Commencez à taper un nom...",
     "organisation_add_user"         => "Ajouter utilisateur à l'organisation",
-    "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux tickets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des tickets, mais ne peuvent pas lire ou répondre à des tickets d'autres utilisateurs.",
+    "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux billets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des billets, mais ne peuvent pas lire ou répondre à des billets d'autres utilisateurs.",
     "organisation_operator_desc"    => "Ajouter les utilisateurs existants à cette organisation en cliquant sur - Ajouter clients - et la recherche de leur nom, noter que l'ajout d'un Clients supprime tous les liens qu'ils ont avec une autre Projet.",
-    "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres clients et répondre aux tickets d'un autre client <br /><strong>Clients</strong> - Peuvent uniquement ouvrir des tickets au sein de cette organisation, et ne peuvent répondre qu'à leurs tickets.",
+    "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres clients et répondre aux billets d'un autre client <br /><strong>Clients</strong> - Peuvent uniquement ouvrir des billets au sein de cette organisation, et ne peuvent répondre qu'à leurs billets.",
     "send_password_reset"           => "Envoyer lien de réinitialisation du mot de passe",
 
     "profile"                       => "Profil",
@@ -65,7 +65,7 @@ return array(
     "operator_group"                => "Groupe opérateur|Groupes opérateurs",
     "add_group"                     => "Ajouter au groupe",
 
-    "customfield"                   => "Champ utilisateur sur mesure|Champs utilisateurs sur mesure",
+    "customfield"                   => "Champ utilisateur personnalisé|Champs utilisateurs personnalisé",
     "customfield_order"             => "Faites glisser les blocs pour changer l'ordre des champs personnalisés.",
 
     "role"                          => "Rôle|Rôles",
@@ -74,8 +74,8 @@ return array(
     "system_activity_log"           => "Journal des activités système",
     "activity_log"                  => "Journal des activités",
 
-    "mass_email"                    => "Envoyer e-mail de groupe",
-    "send_email"                    => "Envoyer e-mail",
+    "mass_email"                    => "Envoyer courriels de groupe",
+    "send_email"                    => "Envoyer courriel",
     "choose_template"               => "Choisir un template...",
 
     "ldap_account"                  => "Compte LDAP|Comptes LDAP ",
@@ -137,7 +137,7 @@ return array(
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Veuillez stocker ceci dans un endroit sûr car vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone, auquel cas, l'accès sera perdu.",
     "display_notifications"         => "Afficher les notifications",
-    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux tickets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
+    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux billets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
     "desktop_notifications"         => "Notifications sur le bureau",
     "browser_notifications"         => "Notifications sur le navigateur",
 
@@ -184,15 +184,15 @@ return array(
     "organisations_enabled"         => "Organisations activées",
     "organisations_enabled_desc"    => "Par défaut, les utilisateurs peuvent ajouter une organisation à leur profil et ajouter d'autres utilisateurs à cette orgnaisation. Si vous ne traitez avec les consommateurs, vous pouvez désactiver l'option d'organisation.",
     "manager_notifications"         => "Notifications du manager d'une organisation",
-    "manager_notifications_desc"    => "Si les managers des organisations doivent recevoir des mises à jour des tickets ouverts par d'autres utilisateurs dans l'organisation par défaut. Chaque manager aura son propre choix personnel pour cela dans son profil et peut remplacer ce paramètre.",
-    "manager_email_notifications_desc" => "Si les managers doivent recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres utilisateurs de l'organisation.",
-    "organisation_notifications_desc" => "Si vous souhaitez recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres utilisateurs de votre organisation.",
+    "manager_notifications_desc"    => "Si les managers des organisations doivent recevoir des mises à jour des billets ouverts par d'autres utilisateurs dans l'organisation par défaut. Chaque manager aura son propre choix personnel pour cela dans son profil et peut remplacer ce paramètre.",
+    "manager_email_notifications_desc" => "Si les managers doivent recevoir des notifications par e-mail des mises à jour de billets ouverts par d'autres utilisateurs de l'organisation.",
+    "organisation_notifications_desc" => "Si vous souhaitez recevoir des notifications par e-mail des mises à jour de billets ouverts par d'autres utilisateurs de votre organisation.",
     "select_operator_group_desc"    => "Veuillez sélectionner au moins un groupe d'opérateurs pour cet opérateur.",
 
     /*
      * 2.1.0
      */
-    "organisation_customfield"      => "Champ sur mesure organisation|Champs sur mesure organisation",
+    "organisation_customfield"      => "Champ personnalisé de l'organisation|Champs personnalisés de l'organisation",
     "recent_users"                  => "Utilisateurs récents",
     "recent_organisations"          => "Organisations récentes",
     "group_brand_desc"              => "Veuillez sélectionner de quelle marque les opérateurs de ce groupe seront capables de visionner, créer et supprimer (dépendamment des droits) des tickets, et autres contenus.",
@@ -204,17 +204,12 @@ return array(
     "op_settings_individual_dept"   => "Assigné individuellement:",
     "op_settings_individual_dept_desc" => "Ces départements sont en plus des départements pré-assignés à l'opérateur au travers des groupes ci-dessus.",
     "also_registered_other_brand"   => "Cet utilisateur est aussi enregistré dans la marque suivante : :brands.|Cet utilisateur est aussi enregistré dans les marques suivantes : :brands.",
-    "signature"                     => "Signature|Signatures",
-    "signature_desc"                => "Permet de créer une signature personnelle pour les tickets, avec la possibilité de customiser selon la marque et le département du ticket. La signature par défaut est utilisée lorsqu'un département et/ou une marque ne peut être trouvé.",
-    "operator_signature"            => "Signature opérateur|Signatures opérateurs",
-    "ticket_signature_desc"         => "La signature par défault d'un ticket par l'opérateur.",
-    "operator_signature_desc"       => "D'autres signatures, pour des départements et marques spécifiques peuvent être paramétrés dans la section <a href=':route' target='_blank'>Signatures opérateurs</a>",
     "view_organisation"             => "Afficher organisation",
     "new_owner"                     => "Nouveau propriétaire",
     "operator_role"                 => "Rôle opérateur|Rôles opérateurs",
-    "manage_users"                  => "Gérer utilisateurs",
-    "manage_organisations"          => "Gérer organisations",
-    "manage_operators"              => "Gérer opérateurs",
+    "manage_users"                  => "Gérer les utilisateurs",
+    "manage_organisations"          => "Gérer les organisations",
+    "manage_operators"              => "Gérer les opérateurs",
     "user_profile"                  => "Profil utilisateur",
     "organisation_access_level"     => "Niveau d'accès de l'organisation",
     "organisation_notifications"    => "Notifications de l'organisation",
@@ -331,12 +326,12 @@ return array(
     /*
      * 3.6.0
      */
-    "security_settings"             => "Security Settings",
-    "security_settings_desc"        => "Update your password, enable 2FA and manage other security related settings for your account.",
-    "active_sessions"               => "Active Sessions",
-    "active_sessions_desc"          => "This is a list of devices that have logged into your account, you may revoke any sessions that you do not recognise.",
-    "current_session"               => "Current Session",
-    "logged_in"                     => "Logged In",
+    "security_settings"             => "Paramètres de sécurité",
+    "security_settings_desc"        => "Changez votre mot de passe, activer le 2FA et gérer les autres paramètres de sécurité de votre compte.",
+    "active_sessions"               => "Sessions actives",
+    "active_sessions_desc"          => "Liste des appareils connectés à votre compte. Vous pouvez révoquer l'accès d'une sesion que vous ne reconnaissez pas.",
+    "current_session"               => "Session actuelle",
+    "logged_in"                     => "Connecté",
     "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
 
     /**
@@ -348,5 +343,14 @@ return array(
     "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
     "verify_phone_code_error"       => "Code could not be verified.",
     "logged_in_as"                  => "Logged in as :name",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Modèle de réponse|Modèles de réponse",
+    "reply_template_desc"           => "Configure le modèle de réponse par défaut qui remplira la zone de texte lors de la composition d'un message, avec une option permettant de personnaliser en fonction de la marque/département associé au billet. Le modèle de réponse par défaut est utilisé lorsqu'il n'y a pas de modèle défini pour le département et/ou la marque.",
+    "operator_reply_template"       => "Modèle de réponse de l'opérateur|Modèles de réponse de l'opérateur",
+    "ticket_reply_template_desc"    => "Défini le modèle de réponse par défaut de l'opérateur.",
+    "operator_reply_template_desc"  => "D'autres modèles de réponse spécifique à un département et/ou marque peuvent être définis à la section <a href=':route' target='_blank'>Modèle de réponse de l'opérateur</a> section.",
 
 );

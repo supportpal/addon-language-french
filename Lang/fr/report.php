@@ -96,7 +96,7 @@ return array(
     /*
      * 3.0.0
      */
-    "user_feedback"             => "Retour",
+    "user_feedback"             => "Satisfaction des usagers",
     "user_feedback_desc"        => "Les retours des utilisateurs lorsqu'ils ont remplis les formulaires.",
     "user_feedback_ratings"     => "Note des retours",
     "user_feedback_ratings_desc" => "Le nombre de fois qu'un retour était accompagné d'une note.",

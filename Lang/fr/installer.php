@@ -192,4 +192,9 @@ return array(
      * 3.7.0
      */
     "troubleshooting_tips"      => "Get troubleshooting tips",
+
+     /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
 );

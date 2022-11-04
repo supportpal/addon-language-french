@@ -12,7 +12,7 @@ return array(
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Les champs fusionnés et e-mail les plus courant se trouvent ci-dessous. Pour plus de détails sur comment utiliser les champs fusionnés, veuillez visiter la <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentation</a>",
+    "merge_fields_desc"         => "Les champs fusionnés et courriels les plus courants se trouvent ci-dessous. Pour plus de détails sur comment utiliser les champs fusionnés, veuillez visiter la <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentation</a>",
 
     /*
      * 2.4.0

@@ -14,7 +14,7 @@ return array(
     "dismiss"                   => "Annuler",
     "next"                      => "Suivant",
     "back"                      => "Retour",
-    "custom"                    => "Sur mesure",
+    "custom"                    => "Personnalisé",
     "url"                       => "URL",
     "last_run"                  => "Dernière exécution",
     "unknown"                   => "Inconnu",
@@ -24,7 +24,7 @@ return array(
     "retry"                     => "Ré-essayer",
     "submit"                    => "Soumettre|Soumis",
     "add"                       => "Ajouter",
-    "delete"                    => "Effacer",
+    "delete"                    => "Supprimer",
     "edit"                      => "Modifier",
     "save"                      => "Sauvegarder",
     "update"                    => "Mettre à jour",
@@ -36,7 +36,7 @@ return array(
     "date"                      => "Date",
     "time"                      => "Heure",
     "id"                        => "ID",
-    "log"                       => "Log",
+    "log"                       => "Historique",
     "filter"                    => "Filtrer",
     "ip_address"                => "Adresse IP",
     "ip"                        => "IP",
@@ -46,17 +46,17 @@ return array(
     "detail"                    => "Détail|Détails",
     "only_enter_to_change"      => "Entre uniquement pour modifier",
     "operator"                  => "Opérateur|Opérateurs",
-    "staff"                     => "Staff",
+    "staff"                     => "Équipe",
     "frontend"                  => "Frontend",
     "message"                   => "Message|Messages",
     "post"                      => "Post|Posts",
     "email"                     => "Courriel",
     "account"                   => "Compte|Comptes",
     "address"                   => "Adresse",
-    "email_address"             => "E-mail",
+    "email_address"             => "Adresse courriel",
     "type"                      => "Type",
     "option"                    => "Option",
-    "remove"                    => "Retirer",
+    "remove"                    => "Supprimer",
     "required"                  => "Requis",
     "enabled"                   => "Activé",
     "registered"                => "Enregistré",
@@ -96,7 +96,7 @@ return array(
     "maintenance"               => "Maintenance",
     "status"                    => "Statut|Statuts",
     "count"                     => "Compte",
-    "view"                      => "Vue|Vues",
+    "view"                      => "Voir",
     "share_via"                 => "Partager via",
     "print"                     => "Imprimer",
     "reply"                     => "Répondre",
@@ -109,7 +109,7 @@ return array(
     "type_to_filter"            => "Type à filtrer",
     "enter_exact_ip"            => "Entrer adresse IP exacte",
     "form"                      => "Formulaire",
-    "support_portal"            => "Portail sécurisé",
+    "support_portal"            => "Portail d'assistance",
     "previous_page"             => "Page précédente",
     "reset"                     => "Réinitialiser",
     "interval"                  => "Intervalle",
@@ -157,16 +157,16 @@ return array(
     "to"                        => "à",            // Used in a range e.g. 2 to 5
 
     // Languages
-    "language"                  => "Langage|Langages",
-    "default_language"          => "Langage par défaut",
-    "language_toggle"           => "Sélecteur de langage",
+    "language"                  => "Langue|Langues",
+    "default_language"          => "Langue par défaut",
+    "language_toggle"           => "Sélecteur de langue",
 
     // Date/Time
     "never"                     => "Jamais",
     "always"                    => "Toujours",
     "minute"                    => "Min|Mins",
     "hour"                      => "Heure|Heures",
-    "custom_hours"              => "Heures sur mesure",
+    "custom_hours"              => "Heures personnalisées",
     "day"                       => "Jour|Jours",
     "month"                     => "Mois|Mois",
     "year"                      => "Année|Années",
@@ -194,9 +194,9 @@ return array(
     "recently_created"          => "Créé récemment",
     "load_more"                 => "Charger autres",
     "expand_all"                => "Étendre tous",
-    "collapse_all"              => "Refermer tous",
+    "collapse_all"              => "Replier tous",
     "show_more"                 => "Afficher plus",
-    "custom_fields"             => "Champs sur mesure",
+    "custom_fields"             => "champs personnalisés",
 
     /*
      * 2.1.0
@@ -213,7 +213,7 @@ return array(
     "rule"                      => "Règle",
     "start_date"                => "Date début",
     "end_date"                  => "Date fin",
-    "submitted_by"              => "Soumis par",
+    "submitted_by"              => "Ouvert par",
     "every_minutes"             => "Chaque :minutes",
 
     /*
@@ -228,13 +228,13 @@ return array(
     /*
      * 2.1.2
      */
-    "just_now"                  => "just now",
+    "just_now"                  => "maintenant",
     "minutes_ago"               => "il y a :number minute|il y a :number minutes",
     "hours_ago"                 => "il y a :number heure|il y a :number heures",
     "days_ago"                  => "il y a :number jour|il y a :number jours",
     "months_ago"                => "il y a :number mois|il y a :number mois",
     "years_ago"                 => "il y a :number an|il y a :number ans",
-    "shortly"                   => "brièvement",
+    "shortly"                   => "sous peu",
     "in_minutes"                => "dans :number minute|dans :number minutes",
     "in_hours"                  => "dans :number heure|dans :number heures",
     "in_days"                   => "dans :number jour|dans :number jours",
@@ -245,7 +245,7 @@ return array(
     "number_days"               => ":number jour|:number jours",
     "number_months"             => ":number mois|:number mois",
     "number_years"              => ":number an|:number ans",
-    "recipients"                => "Receveur|Receveurs",
+    "recipients"                => "Destinataire|Destinataires",
     "posted"                    => "Posté",
     "locked"                    => "Verrouillé",
     "draft"                     => "Brouillon",
@@ -261,7 +261,7 @@ return array(
     "saturday"                  => "Samedi",
     "sunday"                    => "Dimanche",
     "inactive"                  => "Inactif",
-    "run"                       => "Lancer",
+    "run"                       => "Exécuter",
 
     /*
      * 2.3.0
@@ -391,7 +391,7 @@ return array(
     "appearance"                => "Apparance",
     "faster"                    => "Plus vite",
     "slower"                    => "Plus lent",
-    "revoke"                    => "Revoquer",
+    "revoke"                    => "Révoquer",
     "configure"                 => "Configurer",
 
     /*
@@ -415,4 +415,12 @@ return array(
     "more_information"          => "More Information",
     "details"                   => "Details",
 
+
+    /*
+     * 4.2.0
+     */
+    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
+    "running_upgrade"           => "Running app upgrade",
+    "upgrade_complete_success"  => "App upgrade completed successfully.",
+    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
 );

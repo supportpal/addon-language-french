@@ -21,9 +21,9 @@ return array(
 
     "api_failed_login"                  => "IP :rel échec d'authentification vers API.",
 
-    "user_successful_login"             => "Connecté au système de ticket.",
+    "user_successful_login"             => "Connecté au système de billeterie.",
     "user_failed_login"                 => "Échec d'authentification.",
-    "user_successful_logout"            => "Deconnecté du système de ticket.",
+    "user_successful_logout"            => "Deconnecté du système de billeterie.",
 
     "user_registered"                   => "Compte enregistré.",
     "user_confirmed"                    => "Compte confirmé.",
@@ -202,5 +202,10 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Article :rel noté neutralement.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
 
 );

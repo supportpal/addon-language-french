@@ -25,9 +25,9 @@ return array(
     "user_view"         => "Voir utilisateur",
     "user_add"          => "Ajouter utilisateur",
     "user_edit"         => "Éditer utilisateur",
-    "user_delete"       => "Effacer utilisateur",
+    "user_delete"       => "Supprimer utilisateur",
     "usergroup"         => "Gérer groupes d'utilisateurs",
-    "massemail"         => "Envoyer campagne d'e-mail",
+    "massemail"         => "Envoyer campagne de courriels",
     "ldapaccount"       => "Gérer comptes LDAP",
     "activitylog"       => "Voir log des activités du système",
     "operatorlog"       => "Afficher log des accès d'opérateurs",
@@ -43,10 +43,10 @@ return array(
     "schedule"          => "Gérer horaires",
     "slaplan"           => "Gérer plans de service",
     "status"            => "Gérer statuts",
-    "ticket_view"       => "Voir ticket",
-    "ticket_add"        => "Ouvrir ticket",
-    "ticket_edit"       => "Mettre à jour le ticket",
-    "ticketcustomfield" => "Gérer champs sur mesure",
+    "ticket_view"       => "Voir les billets",
+    "ticket_add"        => "Ouvrir un billet",
+    "ticket_edit"       => "Modifier le billet",
+    "ticketcustomfield" => "Gérer les champs personnalisés",
 
     // Self-service
     "article"           => "Gérer articles",
@@ -75,9 +75,8 @@ return array(
     "phpinfo"           => "Voir info PHP",
 
     // User
-    "usercustomfield"   => "Gérer champs usagers sur mesure",
-    "organisationcustomfield" => "Gérer champ d'organisations sur mesure",
-    "operatorsignature" => "Gérer signatures opérateurs",
+    "usercustomfield"   => "Gérer champs usagers personnalisés",
+    "organisationcustomfield" => "Gérer champ d'organisations personnalisés",
 
     /*
      * 2.1.1
@@ -95,8 +94,8 @@ return array(
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Supprimer définitivement le ticket",
-    "ticket_trash"      => "Déplacer le ticket à la corbeille",
+    "ticket_delete"     => "Supprimer définitivement le billet",
+    "ticket_trash"      => "Déplacer le billet à la corbeille",
 
     /*
      * 3.0.0
@@ -125,4 +124,8 @@ return array(
     "addon"             => "View and Manage Add-ons",
     "system_health"     => "View System Health",
 
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Gérer les modèles de réponses des opérateurs",
 );
