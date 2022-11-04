@@ -420,11 +420,10 @@ return array(
      */
     "merge"                     => "Merge",
 
-    /*
-     * 4.2.0
-     */
+   /*
+    * 4.2.0
+    */
     "bridge_command_deprecated_warning" => "This command is deprecated and will be removed in the next major release. Call ':php :app_manager_path :command_name' instead.",
     "bridge_command_obsolete_warning"   => "This command has moved. Call ':php :app_manager_path :command_name' instead.",
-
 
 );
