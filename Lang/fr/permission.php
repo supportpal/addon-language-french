@@ -128,4 +128,5 @@ return array(
      * 4.2.0
      */
     "operatorreplytemplate" => "Gérer les modèles de réponses des opérateurs",
+
 );

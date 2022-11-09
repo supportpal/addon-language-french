@@ -334,7 +334,7 @@ return array(
     "logged_in"                     => "Connecté",
     "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
 
-    /**
+    /*
      * 4.0.0
      */
     "verify_phone_number"           => "Verify Phone Number",
@@ -343,6 +343,15 @@ return array(
     "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
     "verify_phone_code_error"       => "Code could not be verified.",
     "logged_in_as"                  => "Logged in as :name",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
 
     /*
      * 4.2.0

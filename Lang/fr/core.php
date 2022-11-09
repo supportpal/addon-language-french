@@ -361,7 +361,7 @@ return array(
      */
     "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
     "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
-    "twig_operator_signature"   => "The {{ operator.reply_template|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_reply_template"   => "The {{ operator.reply_template|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.4.1

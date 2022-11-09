@@ -193,8 +193,12 @@ return array(
      */
     "troubleshooting_tips"      => "Get troubleshooting tips",
 
-     /*
+    /*
      * 4.2.0
      */
-    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
+    "running_upgrade"           => "Running app upgrade",
+    "upgrade_complete_success"  => "App upgrade completed successfully.",
+    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
+
 );

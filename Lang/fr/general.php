@@ -415,12 +415,15 @@ return array(
     "more_information"          => "More Information",
     "details"                   => "Details",
 
-
     /*
-     * 4.2.0
+     * 4.1.0
      */
-    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
-    "running_upgrade"           => "Running app upgrade",
-    "upgrade_complete_success"  => "App upgrade completed successfully.",
-    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
+    "merge"                     => "Merge",
+
+   /*
+    * 4.2.0
+    */
+    "bridge_command_deprecated_warning" => "This command is deprecated and will be removed in the next major release. Call ':php :app_manager_path :command_name' instead.",
+    "bridge_command_obsolete_warning"   => "This command has moved. Call ':php :app_manager_path :command_name' instead.",
+
 );
