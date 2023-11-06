@@ -34,7 +34,7 @@ return array(
     "internal"                  => "Interne",
     "internal_ticket_desc"      => "Ajouter un billet pour un usage interne seulement. Ce billet vous sera associé et non pas à un utilisateur.",
     "ticket_opened"             => "Votre billet a été ouvert.",
-    "enter_user_details"        => "Veuillez entrer vos détails ci-desosus, ou vous connecter à votre compte si vous en avez un.",
+    "enter_user_details"        => "Veuillez entrer vos détails ci-dessous, ou vous connecter à votre compte si vous en avez un.",
     "already_have_account"      => "Vous avez déjà un compte, veuillez vous connecter et ouvrir la question. Veuillez utiliser la fonction 'Mot de passe oublié' au besoin.",
 
     "recent_tickets"            => "Billets récents",
