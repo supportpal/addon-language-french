@@ -56,7 +56,6 @@ return array(
 
     // Report
     "report"            => "Voir rapports",
-    "reportdashboard"   => "Voir panneau de contrôle",
 
     // General
     "tag"               => "Gérer libellés",
@@ -129,4 +128,13 @@ return array(
      */
     "operatorreplytemplate" => "Gérer les modèles de réponses des opérateurs",
 
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "View Private Messages",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Manage Reports",
 );
