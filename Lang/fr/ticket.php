@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Billets récents",
     "last_message_text"         => "Dernier message",
 
-    "set_due_time"              => "Dû pour",
-
     "settings"                  => "Paramètres du billet",
 
     "priority"                  => "Priorité|Priorités",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Types de fichiers autorisés pour les pièces jointes",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> regarde aussi ce billet.",
     "draft_saved"               => "Brouillon enregistré à :time",
     "save_draft"                => "Enregistrer le brouillon",
     "discard_draft"             => "Supprimer le brouillon",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "Entente SLA|Ententes SLA",
     "specific_schedule"         => "Horaires spécifiques",
     "calendar_hours_24"         => "Heures du calendrier (24 heures)",
-    "resolution_time"           => "Temps de résolution",
-    "resolution_time_desc"      => "Temps auquel billet doit être répondu et résolu par priorité. Le temps sera compté que pendant les heures d'affaires basées sur l'horaire choisi (s), les valeurs décimales peuvent être utilisées.",
-    "reply_within"              => "Réponse dans un délai de",
-    "resolve_within"            => "Résolutions dans un délai de",
     "plan"                      => "Plan",
     "sla_condition"             => "Conditions de l'entente SLA",
     "sla_condition_desc"        => "Définir les conditions de billets pour lesquels de nouveaux billets sont vérifiés pour voir si elles tombent sous ce régime. Si un nouveau billet correspond à plusieurs plans SLA, il sera sélectionné sur la priorité du plan, qui peut être modifié en allant à la liste des plans et réordonnancement.",
@@ -258,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Priorité par défaut",
     "default_priority_desc"     => "La priorité par défaut définie pour tous les billets entrants via ce canal.",
-    "verbose_email_log"         => "Tout l'historique courriel",
 
     "last_reply"                => "Dernière réponse",
     "opened_at"                 => "Ouvert à",
@@ -399,7 +391,6 @@ return array(
     "email_user_frontend"       => "Envoyer un courriel aux utilisateurs sur les billets ouverts dans le Frontend",
     "email_user_frontend_desc"  => "Choisissez si les utilisateurs doivent être notifiés par courriel lorsqu'ils ouvrent eux-mêmes un billet sur le frontend.",
     "department_template_disabled" => "Le modèle d'courriel du département concerné est désactivé, cet courriel ne peut donc pas être envoyé..",
-    "verbose_email_log_desc"    => "Si la collecte d'courriels doit être enregistrée dans le fichier, il est recommandé de la laisser désactivée, sauf si le support technique l'exige pour le débogage. Cinq jours de logs sont stockés, les fichiers logs les plus anciens seront purgés automatiquement par le système..",
 
     /*
      * 2.2.0
@@ -419,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Activez pour n'afficher le département qu'aux utilisateurs connectés et n'accepter que les courriels des utilisateurs activement enregistrés dans le service d'assistance. Si cette option est activée, un courriel de retour sera envoyé aux utilisateurs non enregistrés qui envoient un courriel à ce service. Pour modifier ou désactiver cet courriel, veuillez consulter l'option de modèle 'Utilisateurs enregistrés uniquement' ci-dessous.",
     "form_fields_desc"          => "Si vous souhaitez recueillir des informations supplémentaires lorsque l'utilisateur donne son avis, vous pouvez définir ici des champs personnalisés à afficher sur le formulaire. Le type de champ sera verrouillé une fois que le formulaire aura été rempli par un utilisateur.",
-    "feedback_ratings"          => "Notations de la satisfaction des clients (affectant votre score de satisfaction des clients)",
     "email_and_other_accounts"  => "Comptes de messagerie et autres canaux",
     "delete_message"            => "Supprimer le messages",
     "linked_tickets"            => "Billets liés",
@@ -504,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Selectionnez le billet à fusionner",
-    "search_number_or_subject"  => "Rechercher par numéro ou sujet de billet",
     "im_not_sure"               => "Je ne suis pas sûr",
     "auto_reply_detected"       => "Réponse automatique détectée - Aucune notification ne sera envoyée à l'utilisateur.",
     "cc_desc"                   => "Vous pouvez mettre en CC d'autres personnes sur ce billet en entrant leurs adresses courriel ici.",
@@ -552,5 +541,36 @@ return array(
     "enable_throttling"         => "Enable Throttling",
     "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
     "captcha_desc"              => "When the captcha should be shown to users opening new tickets or using the track ticket feature.",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> regarde aussi ce billet.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "Temps de résolution",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+
+    /*
+     * 5.3.0
+     */
+    "reject_duplicate_emails"   => "Reject Duplicate Emails",
+    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
+    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
 
 );
