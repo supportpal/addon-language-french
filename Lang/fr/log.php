@@ -71,7 +71,6 @@ return array(
     "ticket_tag_removed"                => "Tag enlevé :new_value du ticket #:rel.",
     "ticket_slaplan_updated"            => "Mise à jour Plan SLA sur ticket #:rel de :old_value à :new_value.",
     "ticket_duetime_updated"            => "Echéance mise à jour sur ticket #:rel à :new_value.",
-    "ticket_duetime_paused"             => "Mettre en pause l'échéance sur ticket #:rel jusqu'à prochaine réponse de l'utilisateur.",
     "ticket_customfield_updated"        => "Mise à jour champs peronnalisé sur ticket #:rel.",
     "ticket_converted_user"             => "Ticket interne #:rel converti en ticket utilisateur.",
     "ticket_converted_internal"         => "Ticket utilisateur #:rel converti en ticket interne.",
@@ -131,7 +130,6 @@ return array(
     "ticket_macro_applied"              => "La macro ':new_value' a été lancée sur le ticket #:rel.",
     "ticket_macro_automatic"            => "La macro ':new_value' a été lancée automatiquement sur le ticket #:rel.",
     "email_template_not_found"          => "E-mail template ':new_value' non trouvé. Envoi de l'email avorté.",
-    "ticket_duetime_unset"              => "Echéance du ticket #:rel annulée.",
     "private_conversation_started"      => "Conversation démarrée avec :rel.",
     "private_message_sent"              => "Message envoyé à :rel.",
     "not_imported_replies_disabled"     => "Un email :extra_rel1 a été reçu pour le ticket #:rel, mais n'a pas été importé car les réponses du ticket sont désactivées.",
@@ -165,8 +163,6 @@ return array(
     "email_send_failed"                 => "Echec de l'envoi de l'e-mail.",
     "ticket_brand_updated"              => "Marque mise à jour sur le ticket #:rel de :old_value à :new_value.",
     "export_scheduled"                  => "L'export de l'utilisateur :rel a été prévu.",
-    "export_generated"                  => "L'export :new_value de l'utilisateur :rel a été généré et sauvegardé sur le système.",
-    "export_deleted"                    => "L'export :old_value de l'utilisateur :rel a été supprimé du système.",
     "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
     "deleted_old_records"               => "Automatically deleted old :rel records.",
     "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
@@ -212,5 +208,63 @@ return array(
      * 4.2.0
      */
     "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+
+    /*
+     * 5.0.0
+     */
+    "addon_activated"                   => "Activated :item (add-on) :rel.",
+    "addon_deactivated"                 => "Deactivated :item (add-on) :rel.",
+    "addon_installed"                   => "Installed :item (add-on) :rel.",
+    "addon_uninstalled"                 => "Uninstalled :item (add-on) :rel.",
+    "addon_cancelled"                   => "Cancelled :item (add-on) :rel.",
+    "addon_updated"                     => "Updated :item (add-on) :rel to version :new_value.",
+    "ticket_reply_duetime_updated"      => "Updated the reply due time on ticket #:rel to :new_value.",
+    "ticket_resolve_duetime_updated"    => "Updated the resolve due time on ticket #:rel to :new_value.",
+    "ticket_duetime_unset"              => "Echéance du ticket #:rel annulée.",
+    "ticket_reply_duetime_unset"        => "Unset the reply due time on ticket #:rel.",
+    "ticket_resolve_duetime_unset"      => "Unset the resolve due time on ticket #:rel.",
+    "ticket_duetime_paused"             => "Mettre en pause l'échéance sur ticket #:rel jusqu'à prochaine réponse de l'utilisateur.",
+    "ticket_duetime_unpaused"           => "Unpaused the due times on ticket #:rel.",
+    "user_email_verified"               => "Verified their email address.",
+    "marked_email_as_verified"          => "Verified ownership of email address on behalf of user :rel.",
+    "user_invited_to_organisation"      => "User :rel invited to organisation :extra_rel1.",
+    "user_accepted_organisation_invite" => "User :rel accepted invitation to organisation :extra_rel1.",
+    "user_additional_email_verified"    => "Verified an additional email address (:new_value).",
+    "export_generated"                  => "L'export :new_value de l'utilisateur :rel a été généré et sauvegardé sur le système.",
+    "export_deleted"                    => "L'export :old_value de l'utilisateur :rel a été supprimé du système.",
+    "user_export_generated"             => "Export :new_value of user :rel has been generated and stored on the system.",
+
+    /*
+     * 5.0.2
+     */
+    "personal_reply_templates_updated"  => "Updated their reply templates.",
+
+    /*
+     * 5.1.0
+     */
+    "ticket_deleted_attachment"         => "Deleted attachment ':old_value' from ticket #:rel.",
+    "user_added_to_group"               => "User :rel added to user group :new_value.",
+    "user_removed_from_group"           => "User :rel removed from user group :old_value.",
+    "operator_added_to_group"           => "Operator :rel added to operator group :new_value.",
+    "operator_removed_from_group"       => "Operator :rel removed from operator group :old_value.",
+
+    /*
+     * 5.2.0
+     */
+    "background_job_deleted"            => "Deleted background job :rel.",
+    "background_job_retried"            => "Retried background job :rel.",
+
+    /*
+     * 5.3.0
+     */
+    "operator_password_set"             => "Set a password for their account.",
+    "password_reset_sent"               => "Reset password link sent to :rel.",
+
+    /*
+     * 5.4.0
+     */
+    "ticket_feedback_rating"            => "Rated ticket #:rel as :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
+    "ticket_feedback_saved"             => "Saved :extra_rel1 on ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
+    "selfservice_feedback_saved"        => "Saved :extra_rel1 on article :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
 
 );

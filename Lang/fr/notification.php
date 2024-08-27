@@ -8,9 +8,6 @@ return array(
     "new_reply"             => "Réponse à un nouveau billet",
     "new_reply_text"        => "Une nouvelle réponse a été postée par :name sous le billet #:item.",
 
-    "operator_login"        => "Opérateur connecté",
-    "operator_login_text"   => ":name s'est connecté au panneau opérateur.",
-
     "failed_logins"         => "Tentatives de connexion opérateur échouées",
     "new_comments"          => "Nouveau commentaire",
 

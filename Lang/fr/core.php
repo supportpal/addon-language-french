@@ -90,7 +90,6 @@ return array(
     "smtp_username"             => "Nom d'utilisateur SMTP",
     "smtp_password"             => "Mot de passe SMTP",
     "ssl"                       => "SSL",
-    "tls"                       => "TLS",
     "email_content"             => "Contenu du courriel",
     "email_content_desc"        => "Entrez un sujet par défaut et le contenu des courriels pour ce modèle, vous pouvez aussi écrire le modèle dans d'autres langues. Si un modèle ne soit pas dans une autre langue, il utilisera les données par défaut.",
     "outgoing"                  => "Sortant",
@@ -174,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cron Job",
     "schedule_task_3"           => "Créer une tâche cron similaire à l'exemple fourni ci-dessous sur votre serveur pour les tâches planifiées soit exécutéss automatiquement.",
     "ticket_channel_desc"       => "Les canaux Billets sont des méthodes pour créer des billets. Ils peuvent être facilement étendus pour inclure vos propres canaux, par exemple des billets ouverts via Instagram.",
-    "ticket_channel_2"          => "Nous fournissons un certain nombre de canaux par défaut. Vous pouvez activer et configurer les canaux Facebook et Twitter pour recueillir des billets générés via les réseaux sociaux.",
     "user_desc"                 => "Les utilisateurs qui interagissent avec votre système sont affichés ici. Vous pouvez ajouter, modifier et supprimer des clients.",
     "organisation_desc"         => "Les utilisateurs peuvent être affectés à des organisations leur permettant l'accès aux billets ouverts par d'autres utilisateurs au sein de leur organisation.",
     "operator_desc"             => "D'autres membres du personnel peuvent être ajoutés en tant qu'opérateurs ici.",
@@ -333,7 +331,6 @@ return array(
     "reprocess_email_desc"      => "Nous recommendons de vérifier tout d'abord ce qui bloquait au niveau de l'courriel avant de reprocesser.",
     "email_blocked_desc"        => "L'envoi de l'courriel a échoué plusieurs fois, veuillez désormais l'envoyer manuellement.",
     "captcha_type"              => "Type de captcha",
-    "captcha_type_desc"         => "Permet de choisir le type de captcha qui sera utilisé dans le système. Nous recommendons d'utiliser les google reCAPTCHA, qui nécessitent une configuration additionnelle.",
     "default_captcha"           => "Captcha par défaut",
     "recaptcha_site_key"        => "Site Key",
     "recaptcha_secret_key"      => "Secret Key",
@@ -618,5 +615,71 @@ return array(
     "shortcut_expand_all"       => "Étendre tous les messages",
     "shortcut_collapse_all"     => "Replier tous les messages",
     "shortcut_print_ticket"     => "Imprimer le détail du billet et des messages",
+
+    /*
+     * 4.3.0
+     */
+    "db_connection_error"       => "Database connection error, please check :path",
+
+    /*
+     * 5.0.0
+     */
+    "favicon_dark_mode"         => "Dark Mode Favicon",
+    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
+    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
+
+    /*
+     * 5.0.1
+     */
+    "starttls_or_none"          => "STARTTLS / None",
+
+    /*
+     * 5.1.0
+     */
+    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Web Sockets Connection",
+    "websockets_not_running"    => "Unable to connect to web socket server.",
+    "search_driver_check"       => "Search Driver",
+    "search_driver_not_working" => "The configured search driver is not working correctly.",
+
+    /*
+     * 5.2.0
+     */
+    "temporary_path"            => "Temporary Path",
+    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
+    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
+    "failed_jobs"               => "Failed Jobs",
+    "horizon_dashboard"         => "Horizon Dashboard",
+    "job"                       => "Job|Jobs",
+    "job_payload"               => "Job Payload",
+    "job_exception"             => "Job Exception",
+    "failed_at"                 => "Failed At",
+    "queue"                     => "Queue",
+    "exception"                 => "Exception",
+    "data"                      => "Data",
+    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "Nous fournissons un certain nombre de canaux par défaut. Vous pouvez activer et configurer les canaux Facebook et Twitter pour recueillir des billets générés via les réseaux sociaux.",
+    "incoming_duplicate"        => "Incoming (Duplicate)",
+
+    /*
+     * 5.4.0
+     */
+    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
+    "addon_not_found"           => "Add-on not found.",
+    "deactivating_addon"        => "Deactivating add-on...",
+    "addon_already_activated"   => "Add-on already activated.",
+    "addon_already_deactivated" => "Add-on already deactivated.",
+    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
+    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
+    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
+    "site_key"                  => "Site Key",
+    "secret_key"                => "Secret Key",
+    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
+    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
+    "captcha_type_desc"         => "Permet de choisir le type de captcha qui sera utilisé dans le système. Nous recommendons d'utiliser les google reCAPTCHA, qui nécessitent une configuration additionnelle.",
 
 );
