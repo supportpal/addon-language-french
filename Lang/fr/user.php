@@ -23,7 +23,6 @@ return array(
     "transfer_ownership_desc"       => "Etant le propriétaire actuel de l'organisation, vous ne pouvez pas être supprimé en tant que gestionnaire et vous seul pouvez supprimer l'organisation. Vous pouvez transférer la propriété de l'organisation à quelqu'un d'autre, sachez que cette action ne peut pas être inversée.",
     "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer l'organisation et ne peut pas être retiré de celle-ci. Utilisez cette option pour modifier la propriété à un autre Client dans l'organisation.",
     "start_typing_name"             => "Commencez à taper un nom...",
-    "organisation_add_user"         => "Ajouter utilisateur à l'organisation",
     "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux billets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des billets, mais ne peuvent pas lire ou répondre à des billets d'autres utilisateurs.",
     "organisation_operator_desc"    => "Ajouter les utilisateurs existants à cette organisation en cliquant sur - Ajouter clients - et la recherche de leur nom, noter que l'ajout d'un Clients supprime tous les liens qu'ils ont avec une autre Projet.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres clients et répondre aux billets d'un autre client <br /><strong>Clients</strong> - Peuvent uniquement ouvrir des billets au sein de cette organisation, et ne peuvent répondre qu'à leurs billets.",
@@ -56,9 +55,6 @@ return array(
     "country"                       => "Pays",
     "avatar"                        => "Avatar",
     "confirm_password"              => "Confirmer mot de passe",
-
-    "confirmed"                     => "Confirmé",
-    "unconfirmed"                   => "Non confirmé",
 
     "group"                         => "Groupe d'utilisateur|Groupes d'utilisateurs",
     "group_members"                 => "Membres du groupe",
@@ -137,7 +133,6 @@ return array(
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Veuillez stocker ceci dans un endroit sûr car vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone, auquel cas, l'accès sera perdu.",
     "display_notifications"         => "Afficher les notifications",
-    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux billets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
     "desktop_notifications"         => "Notifications sur le bureau",
     "browser_notifications"         => "Notifications sur le navigateur",
 
@@ -254,7 +249,6 @@ return array(
     "unlink_account"                => "Délier le compte :record",
     "unlink_account_warning"        => "Délier ce compte signifie que vous ne pourrez plus utiliser ce média pour vous connecter directement à votre compte.",
     "failed_login"                  => "Login échoué|Logins échoués",
-    "resend_confirmation"           => "<strong><a href=':link'>Cliquez ici</a></strong> pour obtenir un nouvel e-mail de confirmation.",
 
     /*
      * 2.4.0
@@ -271,30 +265,15 @@ return array(
     /*
      * 2.5.0
      */
-    "organisation_domain_desc"      => "Veuillez entrer chaque domaine possédé par l'organisation. Les utilisateurs s'inscrivant avec une adresse e-mail correspondant à un des ces domaines seront automatiquement ajoutés à cette organisation. Nous recommendons toutefois de vérifier que l'utilisateur fait bien partie de l'organisation s'il n'a pas confirmé son adresse e-mail.",
-    "changing_email_desc"           => "Pour changer l'adresse e-mail, une vérification sera envoyée à la prochaine connexion.",
-    "unconfirmed_user_desc"         => "L'utilisateur n'a pas confirmé son adresse e-mail.",
-    "unregistered_user_desc"        => "Ce compte a été créé automatiquement sans mot de passe. Vous pouvez envoyer un e-mail de confirmation pour les laisser le paramétrer, ou le paramétrer vous-même ci-dessous.",
-    "send_confirmation_email"       => "Envoyer un e-mail de confirmation.",
-    "mark_as_confirmed"             => "Marquer comme validé.",
-    "password_reset_already"        => "Vous avez déjà validé votre adresse e-mail, vous pouvez désormais vous connecter.",
-    "unconfirmed_account"           => "Veuillez vérifier votre adresse e-mail.",
     "success_register_desc"         => "Merci de votre inscription. Veuillez confirmer votre adresse e-mail pour compléter le paramétrage du compte.",
-    "resend_confirmation_sent"      => "Un nouvel e-mail de confirmation vous a été envoyé, et arrivera d'ici quelques instants.",
-    "register_confirm_desc"         => "Merci d'avoir confirmé votre adresse e-mail, veuillez entrer un mot de passe ci-dessous pour finir le paramétrage de votre compte.",
-    "thank_you_confirm"             => "Merci d'avoir confirmé votre adresse e-mail.",
     "use_gravatar"                  => "Utiliser Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
 
     /*
      * 2.6.0
      */
-    "updating_email_address"        => "Pour compléter la modification de votre adresse e-mail, veuillez cliquer sur le lien envoyé à :email pour confirmer qu'il s'agit bien de la votre.",
-    "confirmation"                  => "Confirmation",
-    "confirmation_email_in_use"     => "Cette adresse e-mail est déjà utilisée.",
     "continue_to_login"             => "Veuillez continuer à vous <a href=':route'>connecter</a>.",
     "reset_request_desc"            => "Si le compte a bien été trouvé, un e-mail va vous être envoyé pour réinitialiser votre mot de passe.",
-    "password_reset_error"          => "Le lien a peut-être expiré. Si ce lien ne fonctionne pas, veuillez en demander un nouveau.",
 
     /*
      * 3.0.0
@@ -361,5 +340,50 @@ return array(
     "operator_reply_template"       => "Modèle de réponse de l'opérateur|Modèles de réponse de l'opérateur",
     "ticket_reply_template_desc"    => "Défini le modèle de réponse par défaut de l'opérateur.",
     "operator_reply_template_desc"  => "D'autres modèles de réponse spécifique à un département et/ou marque peuvent être définis à la section <a href=':route' target='_blank'>Modèle de réponse de l'opérateur</a> section.",
+
+    /*
+     * 5.0.0
+     */
+    "verified"                      => "Verified",
+    "unverified"                    => "Unverified",
+    "unverified_email_desc"         => "User has not verified ownership of this email address.",
+    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "changing_email_desc"           => "Pour changer l'adresse e-mail, une vérification sera envoyée à la prochaine connexion.",
+    "unregistered_user_desc"        => "Ce compte a été créé automatiquement sans mot de passe. Vous pouvez envoyer un e-mail de confirmation pour les laisser le paramétrer, ou le paramétrer vous-même ci-dessous.",
+    "send_verification_email"       => "Send Verification Email",
+    "mark_as_verified"              => "Mark as Verified",
+    "password_reset_already"        => "Vous avez déjà validé votre adresse e-mail, vous pouvez désormais vous connecter.",
+    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
+    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "organisation_domain_desc"      => "Veuillez entrer chaque domaine possédé par l'organisation. Les utilisateurs s'inscrivant avec une adresse e-mail correspondant à un des ces domaines seront automatiquement ajoutés à cette organisation. Nous recommendons toutefois de vérifier que l'utilisateur fait bien partie de l'organisation s'il n'a pas confirmé son adresse e-mail.",
+    "resend_verification_email"     => "Resend Verification Email",
+    "updating_email_address"        => "Pour compléter la modification de votre adresse e-mail, veuillez cliquer sur le lien envoyé à :email pour confirmer qu'il s'agit bien de la votre.",
+    "email_verification"            => "Email Verification",
+    "email_verification_already_in_use" => "The email address is already in use by another account.",
+    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
+    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
+    "invite_user"                   => "Invite User",
+    "organisation_invite_user"      => "Invite user to organisation",
+    "user_already_in_organisation"  => "The user is already part of an organisation.",
+    "invitations"                   => "Invitation|Invitations",
+    "invite_exists"                 => "The user has already been invited.",
+    "success_join"                  => "You are now a member of the organisation :name.",
+    "error_join"                    => "The invitation code could not be found, or has expired.",
+    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux billets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
+
+    /*
+     * 5.3.0
+     */
+    "email_verified"                => "Email Verified",
+    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
+    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
+    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
+    "password_set_success"          => "Password set successfully!",
 
 );
