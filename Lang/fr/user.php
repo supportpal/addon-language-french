@@ -86,9 +86,6 @@ return array(
 
     "operator_details"              => "Détails opérateur",
 
-    "email_notifications"           => "Notifications par e-mail",
-    "email_notifications_desc"      => "Les notifications par e-mail qui seront reçues à partir du système.",
-
     "enable_ldap"                   => "Activer LDAP Connexion",
     "enable_ldap_desc"              => "Si vous utilisez LDAP, vous pouvez l'activer pour le login de l'opérateur. Après l'activation, accédez à la page des paramètres de comptes LDAP pour le configurer.",
     "user_reg_enabled"              => "Inscription d'utilisateurs activé",
@@ -132,7 +129,6 @@ return array(
     "two_fa_code"                   => "Code de 2FA",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Veuillez stocker ceci dans un endroit sûr car vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone, auquel cas, l'accès sera perdu.",
-    "display_notifications"         => "Afficher les notifications",
     "desktop_notifications"         => "Notifications sur le bureau",
     "browser_notifications"         => "Notifications sur le navigateur",
 
@@ -373,11 +369,6 @@ return array(
     "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
 
     /*
-     * 5.2.3
-     */
-    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux billets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
-
-    /*
      * 5.3.0
      */
     "email_verified"                => "Email Verified",
@@ -385,5 +376,37 @@ return array(
     "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
     "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
     "password_set_success"          => "Password set successfully!",
+
+    /*
+     * 5.7.0
+     */
+    "reply_template_cursor_position" => "Use the 'Set Cursor Position' option in the editor to specify where the cursor will be positioned when the user opens the editor to reply to a ticket.",
+    "system_bot_desc"               => "This is a system bot account used for automated actions. You can only edit its name and avatar.",
+    "notification_settings"         => "Notification Settings",
+    "operator_notifications"        => "Operator Notifications",
+    "operator_notifications_desc"   => "Update the notification preferences for the operator account.",
+    "default_department_subscription" => "Default Department Subscription",
+    "default_department_subscription_desc" => "Set the default notification subscription to determine when notifications are sent on ticket events. This subscription will be used for any department that does not have a specific subscription configured.",
+    "department_subscriptions"      => "Department Subscriptions",
+    "department_subscriptions_desc" => "Customise the notification subscription for each department.",
+    "subscription_type"             => "Subscription Type",
+    "subscription_default"          => "Default",
+    "subscription_default_desc"     => "Use the default department subscription for this department.",
+    "subscription_all_activity"     => "All Activity",
+    "subscription_all_activity_desc" => "Receive notifications about all activity in this department.",
+    "subscription_unassigned_and_assigned" => "Unassigned and Assigned",
+    "subscription_unassigned_and_assigned_desc" => "Receive notifications from this department when there are no assignees on the ticket, or when you are assigned. Notifications are also sent when watching the ticket or @mentioned.",
+    "subscription_assigned_only"    => "Assigned Only",
+    "subscription_assigned_only_desc" => "Receive notifications from this department only when assigned to the ticket. Notifications are also sent when watching the ticket or @mentioned.",
+    "subscription_ignore"           => "Ignore",
+    "subscription_ignore_desc"      => "Don't receive notifications for any activity in this department, apart from when watching or @mentioned.",
+    "configure_on_operator_notifications" => "Department-specific notification subscriptions can be set on the <a href=':route' target='_blank'>operator notifications</a> page.",
+    "notification_channel_email"    => "Email",
+    "notification_channel_browser"  => "Browser",
+    "browser_notifications_desc"    => "The system will notify you of certain events through the browser. You can choose between desktop notifications, in-app notifications, or disabling them completely.",
+    "failed_login_notification"     => "Failed Operator Login",
+    "failed_login_notification_desc" => "Notifies you when someone fails to log in to the operator panel or has their IP banned due to multiple failed login attempts.",
+    "notifications_desc"            => "Select the channels on which you would like to be notified about system events, or disable individual notifications completely.",
+    "in_app_notifications"          => "In-App Notifications",
 
 );
