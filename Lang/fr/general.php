@@ -388,7 +388,7 @@ return array(
     /*
      * 3.6.0
      */
-    "appearance"                => "Apparance",
+    "appearance"                => "Apparence",
     "faster"                    => "Plus vite",
     "slower"                    => "Plus lent",
     "revoke"                    => "Révoquer",
