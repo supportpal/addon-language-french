@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Retour à :page.",
 
-    "session_expired"       => "Votre session a expiré, veuillez vous connecter à nouveau.",
     "session_refresh"       => "Votre session a expiré, veuillez recharger la page et tenter à nouveau.",
 
     "general_error"         => "Une erreur s'est produite. Veuillez tenter à nouveau.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Interdit",
 
     "not_logged_exception"  => "<strong>Oops! Une erreur s'est produite.</strong><br />Veuillez notifier l'administrateur système si cette erreur persiste.",
-
-    "too_many_ticket_reqs"  => "Trop de billets soumis à :email. La limite est de :max dans un délai de :decay minutes.",
 
     "not_operator"          => "Une erreur s'est produite. L'opérateur sélectionné est invalide, veuillez vous assurer qu'ils appartiennent à un groupe d'opérateurs et que ce groupe est associé à un rôle.",
 
@@ -171,6 +168,11 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Votre session a expiré, veuillez vous connecter à nouveau.",
 
 );

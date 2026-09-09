@@ -27,4 +27,10 @@ return array(
     "new_mention"           => "Nouvelle mention",
     "new_mention_text"      => ":name vous a nommé dans le billet #<a href=':route'>:number</a>.",
 
+    /*
+     * 6.0.0.
+     */
+    "new_feedback"          => "New Ticket Feedback",
+    "new_feedback_text"     => ":name left feedback on ticket #:item. Rating: :rating",
+
 );

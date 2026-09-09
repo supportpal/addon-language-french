@@ -97,7 +97,6 @@ return array(
     "incoming_spam"             => "Entrant (Rejeté - Spam)",
     "incoming_throttled"        => "Entrant (Rejeté - Throttled)",
     "email_subject"             => "Sujet du courriel",
-    "twig_html_warning"         => "Twig n'est pas permis à l'intérieur des balises HTML / attributs et sera automatiquement supprimé lors de l'enregistrement.",
 
     // Modules
     "modules"                   => "Module|Modules",
@@ -210,7 +209,6 @@ return array(
     "time_format"               => "Format de l'heure",
     "time_format_desc"          => "Le format de l'heure global.",
     "simpleauth_key"            => "SimpleAuth Key",
-    "simpleauth_key_desc"       => "La clé pour notre authentification (single sign on option), minimum de 16 caractères.",
     "simpleauth_operators"      => "Autoriser pour les opérateurs",
     "base_url"                  => "URL du Système",
     "base_url_desc"             => "Entrez l'adresse Web complète de votre installation, utilisé pour générer les URL qui sont envoyés aux utilisateurs.",
@@ -236,7 +234,6 @@ return array(
     "email_no_body"             => "Impossible d'identifier le corps du message.",
     "email_runtime_error"       => "Une erreur d'exécution (runtime error) est survenue lors de la création de la réponse du billet / réponse.",
     "email_reply_disabled"      => "Les réponses courriel de l'utilisateur ont été désactivées pour ce département.",
-    "email_throttled"           => "Trop d'courriels provenant de cet utilisateur. La limite est de :max_requests courriels toutes les :decay_time minutes.",
 
     /*
      * 2.1.0
@@ -373,7 +370,6 @@ return array(
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
     "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
     "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
     "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
@@ -574,7 +570,6 @@ return array(
     "file_not_found"            => "File ':path' not found.",
     "file_not_executable"       => "File ':path' is not executable.",
     "dependency_resolution"     => "Unable to run health check.",
-    "debug_mode_warning"        => "Debug mode should only be used temporarily.",
     "custom_colour"             => "Custom Colour",
     "remove_colour"             => "Remove Colour",
     "background_colour"         => "Background Colour",
@@ -689,7 +684,7 @@ return array(
     "country_list_aria_label"   => "List of countries",
     "zero_search_results"       => "No results found",
     "one_search_result"         => "1 result found",
-    "multiple_search_results"   => "\${count} results found", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "${count} results found", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Advanced",
     "table"                     => "Table",
     "cell"                      => "Cell",
@@ -762,4 +757,91 @@ return array(
     "solid"                     => "Solid",
     "dashed"                    => "Dashed",
     "dotted"                    => "Dotted",
+
+    /*
+     * 6.0.0
+     */
+    "bot"                       => "Bot",
+    "start_tls"                 => "Start TLS",
+    "shortcut_disabled"         => "Disabled",
+    "shortcut_edit"             => "Edit shortcut",
+    "shortcut_reset"            => "Reset to default",
+    "shortcut_press_key"        => "Press a key combination...",
+    "shortcut_already_in_use"   => "This shortcut is already in use by ':name'.",
+    "shortcut_invalid"          => "Invalid shortcut. Please try again.",
+    "shortcut_editor"           => "Text Editor",
+    "shortcut_editor_bold"      => "Bold",
+    "shortcut_editor_italic"    => "Italic",
+    "shortcut_editor_underline" => "Underline",
+    "shortcut_editor_link"      => "Insert link",
+    "shortcut_editor_strikethrough" => "Strikethrough",
+    "shortcut_editor_codesample" => "Insert code sample",
+    "shortcut_editor_blockquote" => "Insert block quote",
+    "shortcut_editor_numlist"   => "Insert numbered list",
+    "shortcut_editor_bullist"   => "Insert bullet list",
+    "shortcut_editor_outdent"   => "Decrease indent",
+    "shortcut_editor_indent"    => "Increase indent",
+    "shortcut_editor_removeformat" => "Remove formatting",
+    "shortcut_editor_canned_responses" => "Insert canned response",
+    "shortcut_editor_self_service" => "Insert self-service link",
+    "shortcut_editor_submit"    => "Submit form",
+    "shortcut_editor_superscript" => "Superscript",
+    "shortcut_editor_subscript" => "Subscript",
+    "shortcut_editor_paragraph" => "Paragraph",
+    "shortcut_editor_heading1"  => "Heading 1",
+    "shortcut_editor_heading2"  => "Heading 2",
+    "shortcut_editor_heading3"  => "Heading 3",
+    "shortcut_editor_heading4"  => "Heading 4",
+    "shortcut_editor_heading5"  => "Heading 5",
+    "shortcut_editor_heading6"  => "Heading 6",
+    // Activity Log Groups
+    "ticket_events"             => "Ticket Events",
+    "user_events"               => "User Events",
+    "organisation_events"       => "Organisation Events",
+    "email_events"              => "Email Events",
+    "system_events"             => "System Events",
+    "selfservice_events"        => "Self-Service Events",
+    "ip_events"                 => "IP Events",
+    "login_events"              => "Login Events",
+    "export_events"             => "Export Events",
+    "addon_events"              => "Addon Events",
+    "private_conversation_events" => "Private Conversation Events",
+    "import_events"             => "Import Events",
+    "background_job_events"     => "Background Job Events",
+    "user_profile"              => "Profile updates",
+    "user_organisation"         => "Organisation updates",
+    "user_groups"               => "Group membership changes",
+    "user_password"             => "Password changes",
+    "user_merge"                => "Merge events",
+    "email_mass"                => "Mass email events",
+    "email_sent"                => "Sent emails",
+    "misc_events"               => "Miscellaneous events",
+    "system_tasks"              => "Scheduled task events",
+    "system_jobs"               => "Background jobs events",
+    "system_items"              => "Created, updated & deleted records",
+    "selfservice_articles"      => "Article events",
+    "selfservice_comments"      => "Comment events",
+    "selfservice_feedback"      => "Feedback events",
+    "email_throttled"           => "Trop d'courriels provenant de cet utilisateur. La limite est de :max_requests courriels toutes les :decay_time minutes.",
+    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
+    "debug_mode_warning"        => "Debug mode should only be used temporarily.",
+    "debug_mode_error"          => "App debug should not be enabled in production and will display errors to users, set APP_DEBUG to false. Use the debug mode option in the general settings instead.",
+
+    /*
+     * 6.0.2
+     */
+    "simpleauth_key_desc"       => "La clé pour notre authentification (single sign on option), minimum de 16 caractères.",
+
+    /*
+     * 6.1.0
+     */
+    "update_and_activate"       => "Update & Activate",
+    "purge_in_background"       => "The records will be purged in the background. This may take some time...",
+    "shortcut_minimise_form"    => "Minimise the active message form",
+    "token_generate_after_create" => "The token will be generated when the API token is saved.",
+    "change_token"              => "Changing the token will break any integrations using the previous token.",
+    "simpleauth_key_generate"   => "Generate Key",
+    "change_simpleauth_key"     => "Changing the key will break any single sign on integrations using the previous key.",
+    "view_matched_rule"         => "View matched rule",
+
 );

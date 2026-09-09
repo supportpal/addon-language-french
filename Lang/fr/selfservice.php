@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Extrait",
     "associate_tag"             => "Associer article avec un libellé...",
     "associate_category"        => "Associer article avec un libellé...",
-    "published_desc"            => "Si l'article peut être consulté publiquement. Si il n'est pas publié, il peut encore être vu par l'URL directe si la catégorie est publique.",
     "registered_users_desc"     => "Activer pour afficher l'article seulement aux utilisateurs authentifiés.",
 
     "comment_by"                => "Commentaire par",
@@ -150,7 +149,6 @@ return array(
      */
     "type_protected_desc"       => "Activer pour montrer ce type de contenus à des utilisateurs authentifiés uniquement",
     "article_feedback"          => "Retour de l'article",
-    "frontend_icon_desc"        => "Sélectionnez une icône <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> à afficher sur le frontend pour votre type, vous pouvez également rechercher une icône personnalisée non incluse dans la liste (commençant par 'fa-').",
     "comment_deleted"           => "Comment deleted",
 
     /*
@@ -163,5 +161,19 @@ return array(
      */
     "comment_notification"      => "New Comment Posted",
     "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Si l'article peut être consulté publiquement. Si il n'est pas publié, il peut encore être vu par l'URL directe si la catégorie est publique.",
+    "not_published"             => "Not Published",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Sélectionnez une icône <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> à afficher sur le frontend pour votre type, vous pouvez également rechercher une icône personnalisée non incluse dans la liste (commençant par 'fa-').",
+    "icon_book"                 => "Book",
+    "icon_download"             => "Download",
+    "icon_newspaper"            => "Newspaper",
 
 );

@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "Le billet a été résolu pendant un certain temps, et il ne peut malheureusement plus être classé.",
     "feedback_questions"        => "Si vous pouviez prendre quelques instants, veuillez répondre aux questions suivantes pour nous aider à améliorer encore le soutien que nous offrons.",
     "feedback_for_ticket"       => "Retour pour le billet #:number",
-    "feedback_rating_desc"      => "Le retour reçu sur ce billet a été classé comme <strong>:rating</strong> par le client.",
 
     // Custom fields
     "customfield"               => "Champ personnalisé du billet|Champ personnalisé du billet",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Types de fichiers autorisés pour les pièces jointes",
 
     // Drafts
-    "draft_saved"               => "Brouillon enregistré à :time",
     "save_draft"                => "Enregistrer le brouillon",
     "discard_draft"             => "Supprimer le brouillon",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Options de réponses",
     "send_email_to_users"       => "Envoyer courriel aux utilisateurs",
     "send_email_to_operators"   => "Envoyer courriel aux opérateurs",
-    "back_to_grid"              => "Retour à la grille des billets",
     "take"                      => "Prendre",
     "take_ownership"            => "Prendre la propriété",
     "pause_duetime"             => "Pauser l'échéance",
@@ -264,7 +261,6 @@ return array(
     "no_departments_found"      => "Aucun département trouvé. Cliquez <a href=':route'>ici</a> pour en créer un.",
     "no_operators_found"        => "Aucun collaborateur trouvé. Cliquez <a href=':route'>ici</a> pour en créer un.",
     "change_priority"           => "Changer priorité",
-    "add_tag"                   => "Ajouter libellé",
 
     "unlock"                    => "Débloquer",
     "merged"                    => "Fusionné",
@@ -279,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "S'il y a un plan SLA actif sur ce billet, mettre en pause le temps restant dû qu'après la date de suivi. Le temps voulu ne commencera à nouveau une fois une réponse ou une note a été ajoutée au ticket (y compris du suivi).",
 
-    "add_cc"                    => "Ajouter CC",
     "reply_above_line"          => "Veuillez répondre au-dessus de cette ligne",
 
     "email_settings"            => "Paramètres courriel",
@@ -305,14 +300,10 @@ return array(
     "default_reply_options_desc" => "Sélectionnez les options de réponse par défaut lors de l'ouverture ou réponse à un ticket. Le ':reply_option' option sera cochée sur la base du ':department_option'. paramètre département",
     "associate_response_tag"    => "Réponse pré-enregistrée associée à un tag ...",
     "canned_response_tags_desc" => "Ajouter des tags qui peuvent aider à trouver une réponse pré-enregistrée lors de la réponse à un ticket.",
-    "append_ip_address"         => "Ajouter adresse IP",
-    "append_ip_address_desc"    => "Ajoutez l'adresse IP des utilisateurs à leurs messages quand ils ouvrent et répondent aux tickets à partir du frontend.",
     "unassign_operator"         => "Détacher opérateur",
-    "remove_tag"                => "Enlever le tag",
     "message_clipped"           => "[Message attaché]",
     "view_entire_message"       => "Voir message entier",
     "no_custom_fields"          => "Aucun champs personnalisés trouvés. Cliquez <a href=':route'>ici</a> pour en créer un.",
-    "follow_up_active"          => "Un <a class='view-followup' style='text-decoration :underline;'>suivi</a> est actuellement actif sur ce ticket et se déroulera peu après <strong>:time </strong>",
     "disable_user_email_replies" => "Désactiver les réponses de l'utilisateur",
 
     /*
@@ -418,7 +409,6 @@ return array(
     "forwarded_to"              => "Transféré à",
     "new_operator_reply"        => "Nouvelle réponse opérateur",
     "new_user_reply"            => "Nouvelle réponse utilisateur",
-    "add_bcc"                   => "Ajouter BCC",
     "at_least_one_recipient"    => "Veuillez spécifier au moins un receveur.",
     "forwarded_message"         => "---------- Message transféré ----------",
 
@@ -478,7 +468,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Suivis",
-    "follow_up_multiple_active" => "Plusieurs <a class='view-followup' style='text-decoration: underline;'>suivis</a> sont actifs sur ce billet, le prochain sera <strong>:time</strong>.",
     "follow_up_no_actions"      => "Le suivi n'a pas d'action paramétrée, veuillez confirmer si vous souhaitez continuer.",
     "status_after_running"      => "Statut après démarrage",
     "older_messages"            => ":count anciens messages",
@@ -492,11 +481,6 @@ return array(
     "im_not_sure"               => "Je ne suis pas sûr",
     "auto_reply_detected"       => "Réponse automatique détectée - Aucune notification ne sera envoyée à l'utilisateur.",
     "cc_desc"                   => "Vous pouvez mettre en CC d'autres personnes sur ce billet en entrant leurs adresses courriel ici.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> est en train d'écrire un message",
 
     /*
      * 3.3.0
@@ -530,7 +514,6 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,z,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
     "captcha_desc"              => "When the captcha should be shown to users opening new tickets or using the track ticket feature.",
@@ -571,9 +554,7 @@ return array(
      */
     "rate_limiting"             => "Rate Limiting",
     "max_requests"              => "Max Requests",
-    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
     "decay_time"                => "Decay Time",
-    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
     "exclude_addresses"         => "Exclude Addresses",
     "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
     "enable_throttling"         => "Enable Throttling",
@@ -613,5 +594,38 @@ return array(
     "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
     "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
     "allowed_files_desc"        => "Une liste des extensions de fichiers, séparés par le caractère | , qui sont autorisés en tant que pièces jointes. Par exemple: txt|png|jpg. Pour autoriser TOUTES les pièces jointes, veuillez écrire : ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Retour à la grille des billets",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Brouillon enregistré à :time",
+    "drafting_message"          => "<strong>:name</strong> est en train d'écrire un message",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
+    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );
