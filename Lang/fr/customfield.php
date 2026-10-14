@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Si le champ personnalisé est obligatoire. Pour les checkbox, checklist, le fait d'en cocher une minimum sera requis.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** CHIFFREE **",
 );
